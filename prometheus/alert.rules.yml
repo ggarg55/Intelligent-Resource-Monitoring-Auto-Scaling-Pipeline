@@ -1,0 +1,10 @@
+groups:
+- name: traffic-alert
+  rules:
+  - alert: HighTraffic
+    expr: rate(http_requests_total[1m]) > 20
+    for: 30s
+    labels:
+      severity: critical
+    annotations:
+      summary: "High traffic detected"

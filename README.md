@@ -22,7 +22,7 @@ The system uses **Prometheus for monitoring**, **Alertmanager for alert routing*
 
 ## Architecture
 
-<img src="./arch/architecure-auto-scaler.png" alt="description" width="500">
+<img src="./architecture_design/architecure-auto-scaler.png" alt="description" width="500">
 
 ---
 
